@@ -1,0 +1,345 @@
+[
+  [
+    {
+      "Position": "Quarterback",
+      "Rank": "The Best",
+      "Name": "Dwayne Haskins",
+      "College": "(Ohio St.)",
+      "requestedSalary": 26400100.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Quarterback",
+      "Rank": "2nd Best",
+      "Name": "Kyler Murray",
+      "College": "(Oklahoma)",
+      "requestedSalary": 20300100.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Quarterback",
+      "Rank": "3rd Best",
+      "Name": "Drew Lock",
+      "College": "(Missouri)",
+      "requestedSalary": 17420300.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Quarterback",
+      "Rank": "4th Best",
+      "Name": "Daniel Jones",
+      "College": "(Duke)",
+      "requestedSalary": 13100145.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Quarterback",
+      "Rank": "5th Best",
+      "Name": "Will Grier",
+      "College": "(West Virginia)",
+      "requestedSalary": 10300000.00,
+      "playerSelected": false
+    }
+  ],
+
+  [
+    {
+      "Position": "Running Back",
+      "Rank": "The Best",
+      "Name": "Josh Jacobs",
+      "College": "(Alabama)",
+      "requestedSalary": 24500100.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Running Back",
+      "Rank": "2nd Best",
+      "Name": "Damien Harris",
+      "College": "(Alabama)",
+      "requestedSalary": 19890200.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Running Back",
+      "Rank": "3rd Best",
+      "Name": "David Montgomery",
+      "College": "(Iowa St.)",
+      "requestedSalary": 18700800.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Running Back",
+      "Rank": "4th Best",
+      "Name": "Justice Hill",
+      "College": "(Oklahoma St.)",
+      "requestedSalary": 15000000.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Running Back",
+      "Rank": "5th Best",
+      "Name": "Devin Singletary",
+      "College": "(FAU)",
+      "requestedSalary": 11600400.00,
+      "playerSelected": false
+    }
+  ],
+
+  [
+    {
+      "Position": "Wide-Receiver",
+      "Rank": "The Best",
+      "Name": "D.K. Metcalf",
+      "College": "(Ole Miss)",
+      "requestedSalary": 23400000.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Wide-Receiver",
+      "Rank": "2nd Best",
+      "Name": "A.J. Brown",
+      "College": "(Ole Miss)",
+      "requestedSalary": 21900300.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Wide-Receiver",
+      "Rank": "3rd Best",
+      "Name": "N'Keal Harry",
+      "College": "(Arizona St.)",
+      "requestedSalary": 19300230.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Wide-Receiver",
+      "Rank": "4th Best",
+      "Name": "Marquise Brown",
+      "College": "(Oklahoma)",
+      "requestedSalary": 13400230.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Wide-Receiver",
+      "Rank": "5th Best",
+      "Name": "Kelvin Harmon",
+      "College": "(NC State)",
+      "requestedSalary": 10000000.00,
+      "playerSelected": false
+    }
+  ],
+
+  [
+    {
+      "Position": "Defensive Lineman",
+      "Rank": "The Best",
+      "Name": "Nick Bosa",
+      "College": "(Ohio St.)",
+      "requestedSalary": 26200300.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Defensive Lineman",
+      "Rank": "2nd Best",
+      "Name": "Quinnen Williams",
+      "College": "(Alabama)",
+      "requestedSalary": 22000000.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Defensive Lineman",
+      "Rank": "3rd Best",
+      "Name": "Ed Oliver",
+      "College": "(Houston)",
+      "requestedSalary": 16000000.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Defensive Lineman",
+      "Rank": "4th Best",
+      "Name": "Jeffery Simmons",
+      "College": "(Miss. State)",
+      "requestedSalary": 18000000.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Defensive Lineman",
+      "Rank": "5th Best",
+      "Name": "Clelin Ferrell",
+      "College": "(Clemson)",
+      "requestedSalary": 13000000.00,
+      "playerSelected": false
+    }
+  ],
+
+  [
+    {
+      "Position": "Defensive-Back",
+      "Rank": "The Best",
+      "Name": "Greedy Williams",
+      "College": "(LSU)",
+      "requestedSalary": 24000000.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Defensive-Back",
+      "Rank": "2nd Best",
+      "Name": "Deandre Baker",
+      "College": "(Georgia)",
+      "requestedSalary": 22500249.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Defensive-Back",
+      "Rank": "3rd Best",
+      "Name": "Byron Murphy",
+      "College": "(Washington)",
+      "requestedSalary": 20000100.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Defensive-Back",
+      "Rank": "4th Best",
+      "Name": "Deionte Thompson",
+      "College": "(Alabama)",
+      "requestedSalary": 16000200.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Defensive-Back",
+      "Rank": "5th Best",
+      "Name": "Amani Oruwariye",
+      "College": "(Penn State)",
+      "requestedSalary": 11899999.00,
+      "playerSelected": false
+    }
+  ],
+
+  [
+    {
+      "Position": "Tight End",
+      "Rank": "The Best",
+      "Name": "Noah Fant",
+      "College": "(Iowa)",
+      "requestedSalary": 27800900.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Tight End",
+      "Rank": "2nd Best",
+      "Name": "Irv Smith",
+      "College": "(Alabama)",
+      "requestedSalary": 21000800.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Tight End",
+      "Rank": "3rd Best",
+      "Name": "T.J. Hockenson",
+      "College": "(Iowa)",
+      "requestedSalary": 17499233.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Tight End",
+      "Rank": "4th Best",
+      "Name": "Kaden Smith",
+      "College": "(Stanford)",
+      "requestedSalary": 27900200.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Tight End",
+      "Rank": "5th Best",
+      "Name": "Josh Oliver",
+      "College": "(San Jose St.)",
+      "requestedSalary": 14900333.00,
+      "playerSelected": false
+    }
+  ],
+
+  [
+    {
+      "Position": "Linebacker",
+      "Rank": "The Best",
+      "Name": "Josh Allen",
+      "College": "(Kentucky)",
+      "requestedSalary": 22900300.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Linebacker",
+      "Rank": "2nd Best",
+      "Name": "Devin White",
+      "College": "(LSU)",
+      "requestedSalary": 19000590.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Linebacker",
+      "Rank": "3rd Best",
+      "Name": "Montez Sweat",
+      "College": "(Miss. State)",
+      "requestedSalary": 18000222.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Linebacker",
+      "Rank": "4th Best",
+      "Name": "Mack Wilson",
+      "College": "(Alabama)",
+      "requestedSalary": 12999999.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Linebacker",
+      "Rank": "5th Best",
+      "Name": "Devin Bush",
+      "College": "(Michigan)",
+      "requestedSalary": 10000100.00,
+      "playerSelected": false
+    }
+  ],
+
+  [
+    {
+      "Position": "Offensive Tackle",
+      "Rank": "The Best",
+      "Name": "Jonah Williams",
+      "College": "(Alabama)",
+      "requestedSalary": 23000000.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Offensive Tackle",
+      "Rank": "2nd Best",
+      "Name": "Greg Little",
+      "College": "(Ole Miss)",
+      "requestedSalary": 20000000.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Offensive Tackle",
+      "Rank": "3rd Best",
+      "Name": "Cody Ford",
+      "College": "(Oklahoma)",
+      "requestedSalary": 19400000.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Offensive Tackle",
+      "Rank": "4th Best",
+      "Name": "Jawaan Taylor",
+      "College": "(Florida)",
+      "requestedSalary": 16200700.00,
+      "playerSelected": false
+    },
+    {
+      "Position": "Offensive Tackle",
+      "Rank": "5th Best",
+      "Name": "Yodny Cajuste",
+      "College": "(West Virginia)",
+      "requestedSalary": 15900000.00,
+      "playerSelected": false
+    }
+  ]
+]
