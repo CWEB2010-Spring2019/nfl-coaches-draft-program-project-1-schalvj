@@ -97,7 +97,7 @@ namespace project1
 
                 verifyColumnSelection(ref column);
 
-                accumExpense(playerName, playerCollege, playerRequestedSalary, ref salaryCap, row, column, selectedPlayer, ref selectionCount);
+                playerSelected(playerName, playerCollege, playerRequestedSalary, ref salaryCap, row, column, selectedPlayer, ref selectionCount);
 
                 costEffective(ref playerRankSelection, ref selectionCount, ref salaryCap, ref effectiveNFLDraft, savingMoney);
 
@@ -360,17 +360,17 @@ namespace project1
             }
         }
 
-        //The accumExpense method cofirms the player that has been selected and updates the coach on their remaining draft allowance.
+        //The playerSelected method cofirms the player that has been selected and updates the coach on their remaining draft allowance.
         //If the coach cannot afford a specific draft selection this method also explains that they do not have enough for that player selection.
         //If the coach should pick a player that has already been selected, that will be explained through this method as well.
-        static void accumExpense(string[,] playerName, string[,] playerCollege, double[,] cost, ref double accum, int row, int column, bool[,] selectedPlayer, ref int selectionCount)
+        static void playerSelected(string[,] playerName, string[,] playerCollege, double[,] cost, ref double balanceRemaining, int row, int column, bool[,] selectedPlayer, ref int selectionCount)
         {
             if (selectedPlayer[row, column] == false)
             {
-                if (accum >= cost[row, column])
+                if (balanceRemaining >= cost[row, column])
                 {
                     Console.Clear();
-                    accum -= cost[row, column];
+                    balanceRemaining -= cost[row, column];
                     Console.Write($"You have selected {playerName[row, column]} from {playerCollege[row, column]} for ");
                     Console.ForegroundColor = ConsoleColor.Blue;
                     Console.Write($"{cost[row, column].ToString("c")}");
@@ -378,7 +378,7 @@ namespace project1
                     Console.WriteLine("!");
                     Console.Write("You have ");
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.Write($"{ accum.ToString("c")} ");
+                    Console.Write($"{ balanceRemaining.ToString("c")} ");
                     Console.ResetColor();
                     Console.WriteLine("of your alloted draft amount remaining.\n");
                     selectedPlayer[row, column] = true;
@@ -388,7 +388,7 @@ namespace project1
                 {
                     Console.Clear();
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
-                    Console.WriteLine($"Sorry, but you only have {accum.ToString("c")} of your alloted draft amount remaining. Please select a player you can afford.\n");
+                    Console.WriteLine($"Sorry, but you only have {balanceRemaining.ToString("c")} of your alloted draft amount remaining. Please select a player you can afford.\n");
                     Console.ResetColor();
                     return;
                 }
@@ -403,7 +403,7 @@ namespace project1
         }
         
         //The costEffective method sorts the coaches player selections, and determines whether the costEffective criteria has been met.
-        static void costEffective(ref List<int> playerRankSelection, ref int selection, ref double accum, ref bool effectiveNFLDraft, string savingMoney)
+        static void costEffective(ref List<int> playerRankSelection, ref int selection, ref double balanceRemaining, ref bool effectiveNFLDraft, string savingMoney)
         {
             if (selection == 3)
             {
@@ -418,7 +418,7 @@ namespace project1
                     }
                     else
                     {
-                        if (accum > 30000000)
+                        if (balanceRemaining > 30000000)
                         {
                             Console.ForegroundColor = ConsoleColor.DarkYellow;
                             Console.WriteLine(savingMoney);
@@ -430,7 +430,7 @@ namespace project1
                 }
             }
         }
-        //This method provides the final message to the coach regarding their player selections.  If no selections have been made it prompts the coach to return when they are ready to select their players.
+        //This method provides the final message to the coach regarding their player selections.  If no selections have been made it 
         static void showPrice(int selectionCount, double salary, ref bool effectiveNFLDraft, string savingMoney, bool[,] selectedPlayer, string[,] playerRank, string[,] playerName, string[,] playerCollege, double[,] cost, string[] playerPosition)
         {
             Console.Clear();
